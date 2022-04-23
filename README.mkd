@@ -31,9 +31,9 @@ Divirta-se!
 
 ## Softwares  e linguagens usados 💾
 
-### <img src="./imageReadMe/icons8-visual-studio-48.png" style="zoom:80%;" >Visual Studio   
+### <a href="https://visualstudio.microsoft.com/pt-br/"><img src="./imageReadMe/icons8-visual-studio-48.png" style="zoom:80%;" >Visual Studio   </a>
 
-###      <img src="./imageReadMe/python.png">Python
+###      <a href="https://www.python.org/"><img src="./imageReadMe/python.png">Python</a>
 
 ------
 
