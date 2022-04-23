@@ -25,7 +25,7 @@ Divirta-se!
 
 ## Softwares  e linguagens usados 💾
 
-### <img src="./imageReadMe/icons8-visual-studio-48.png" style="zoom:80%;" >Visual Studio               <img src="./imageReadMe/python.png">Python
+### <img src="./imageReadMe/icons8-visual-studio-48.png" style="zoom:80%;" >Visual Studio                                          <img src="./imageReadMe/python.png">Python
 
 ###  
 
@@ -33,5 +33,5 @@ Divirta-se!
 
 
 
-### 🐱‍👤[Git Hub](https://github.com/Aristimunho)                                         🙋‍♂️[Linkedin](https://www.linkedin.com/in/abraão-aristimunho-23a784223/)                        💌<a href="mailto:abrahao.184@gmail.com">Email</a>
+### 🐱‍👤[Git Hub](https://github.com/Aristimunho)                                         🙋‍♂️[Linkedin](https://www.linkedin.com/in/abraão-aristimunho-23a784223/)                
 
