@@ -13,7 +13,7 @@ print("  ░░░░  ░░░░░  ░░░░       ▓▓▓ ▓ ▓ ▓
 print("  ░░░░░░░░█░░░░░░░░       ▓ ▓ ▓ ▓▓▓ ▓ ▓     ▓ ▓ ▓ ▓ ▓▓▓ ")
 print("________________________________________________________")
 print()
-print("********************* Regras ******************************")
+print("-"*25 + " Regras " + "-"*25)
 print("*Aloque os hóspedes nos quartos disponíveis lembrando que *")
 print("*        O RATO não pode ficar ao lado do GATO.           *")
 print("*        O CÃO não pode ficar ao lado do OSSO.            *")
@@ -21,20 +21,21 @@ print("*        O GATO não pode ficar ao lado do CÃO.            *")
 print("*       O QUEIJO não pode ficar ao lado do RATO.          *")
 print("*      Os quartos indisponíveis serão marcados com █.     *")
 print("*   Cada hospede será representado por sua letra inicial. *")
-print("*    Os quartos estão númerados como o exemplo seguinte:  *")
+print("*    Os quartos estão numerados como o exemplo seguinte:  *")
 print("*                      ╔═╦═╦═╦═╗                          *")
 print("*                      ║1║2║3║4║                          *")
 print("*                      ╠═╬═╬═╬═╣                          *")
 print("*                      ║5║6║7║8║                          *")
 print("*                      ╚═╩═╩═╩═╝                          *")
-print("***********************************************************")
-print("                      BOA SORTE!!                          ")
+print("-"*58)
+print(" "*23 + "BOA SORTE!!" + " "*23)
 print()
   
 
-print("            ----------------(Fase 1)--------------       ")
+print(" "*9  + "-"*16 + "(Fase 1)" + "-"*16 +  " "*9)
 print()
 print("Aqui voçê deve alocar o RATO e o GATO nos quartos possíveis")
+print("Dicas: Você deve digitar o número do quarto desejado e apertar enter") 
 #As strings foram colocadas em variáveis para facilitar a impressão.
 l1 = "╔═╦═╦═╦═╗"
 l2 = "║█║█║ ║G║"
@@ -42,25 +43,25 @@ l3 = "╠═╬═╬═╬═╣"
 l4 = "║R║ ║█║█║"
 l5 = "╚═╩═╩═╩═╝"
 #As strings foram impressas com espaço para melhor centralizar as caixas. 
-print(" "*22,l1)
-print(" "*22,l2)
-print(" "*22,l3)
-print(" "*22,l4)
-print(" "*22,l5)
+print(" "*23,l1)
+print(" "*23,l2)
+print(" "*23,l3)
+print(" "*23,l4)
+print(" "*23,l5)
 print()
 #O valor inteiro digitado pelo usuário é atribuido as variáveis.
-rato = int(input("Em qual quarto deseja colocar o rato? "))
+rato = input("Em qual quarto deseja colocar o rato? ")
 print()
-gato = int(input("Em qual quarto deseja colocar o gato? "))
+gato = input("Em qual quarto deseja colocar o gato? ")
 print()
 
 #Analisa a resposta do usuário sobre oque a fase pede.
-if (rato == 6 and gato == 3): 
+if (rato == "6" and gato == "3"): 
 #Se a resposta for verdadeira imprime na tela.
  print("Parabéns você conseguiu")
  print("e desbloqueou a fase seguinte")
  print()
- print("            ----------------(Fase 2)--------------       ")
+ print(" "*9  + "-"*16 + "(Fase 2)" + "-"*16 +  " "*9)
  print()
  print("Nesta fase voçê deve alocar um CÃO, um OSSO e outro CÃO nos quartos possíveis")
  l1 = "╔═╦═╦═╦═╗"
@@ -68,26 +69,27 @@ if (rato == 6 and gato == 3):
  l3 = "╠═╬═╬═╬═╣"
  l4 = "║█║C║ ║ ║"
  l5 = "╚═╩═╩═╩═╝"
- print(" "*22,l1)
- print(" "*22,l2)
- print(" "*22,l3)
- print(" "*22,l4)
- print(" "*22,l5)
+ print(" "*23,l1)
+ print(" "*23,l2)
+ print(" "*23,l3)
+ print(" "*23,l4)
+ print(" "*23,l5)
  print()
  #O valor inteiro digitado pelo usuário é atribuido as variáveis.
- cao1 = int(input("Em qual quarto quer colocar o primeiro cão? "))
+ cao1 = input("Em qual quarto quer colocar o primeiro cão? ")
  print()
- osso = int(input("Em qual quarto quer colocar o osso? "))
+ osso = input("Em qual quarto quer colocar o osso? ")
  print()
- cao2 = int(input("Em qual quarto quer colocar o segundo cão? "))
+ cao2 = input("Em qual quarto quer colocar o segundo cão? ")
  print()
  #Analisa a resposta do usuário sobre oque a fase pede.
- if((osso == 1 and cao1 == 7 and cao2 == 8) or (osso == 1 and cao1 == 8 and cao2 == 7)):
+ if((osso == "1" and cao1 == "7" and cao2 == "8") or (osso == "1" and cao1 == "8" and cao2 == "7")):
+
  #Se a resposta for verdadeira imprime na tela.
      print("Parabéns você está pegando o jeito!")
      print("bem vindo a fase seguinte")
      print()
-     print("            ----------------(Fase 3)--------------       ")
+     print(" "*9  + "-"*16 + "(Fase 3)" + "-"*16 +  " "*9)
      print()
      print("Nesta fase voçê deve alocar  GATO,  OSSO e RATO. ")
      l1 = "╔═╦═╦═╦═╗"
@@ -95,26 +97,26 @@ if (rato == 6 and gato == 3):
      l3 = "╠═╬═╬═╬═╣"
      l4 = "║ ║G║ ║█║"
      l5 = "╚═╩═╩═╩═╝"
-     print(" "*22,l1)
-     print(" "*22,l2)
-     print(" "*22,l3)
-     print(" "*22,l4)
-     print(" "*22,l5)
+     print(" "*23,l1)
+     print(" "*23,l2)
+     print(" "*23,l3)
+     print(" "*23,l4)
+     print(" "*23,l5)
      print()
 #O valor inteiro digitado pelo usuário é atribuido as variáveis.
-     gato = int(input("Onde deseja colocar o gato? "))
+     gato = input("Onde deseja colocar o gato? ")
      print()
-     osso = int(input("Em que lugar vai colocar o osso? "))
+     osso = input("Em que lugar será colocado o osso? ")
      print()
-     rato = int(input("E o rato? "))
+     rato = input("E o rato? ")
      print()
 #Analisa a resposta do usuário sobre oque a fase pede.
-     if(rato == 1 and osso == 5 and gato == 7):
+     if(rato == "1" and osso == "5" and gato == "7"):
      #Se a resposta for verdadeira imprime na tela.
          print("Parabéns você chegou a fase FINAL!")
          print("Vamos ver se passa nessa...")
          print()
-         print("            ----------------(Fase 4)--------------       ")
+         print(" "*9  + "-"*16 + "(Fase 4)" + "-"*16 +  " "*9)
          print()
          print("Nesta fase voçê deve alocar  QUEIJO,  OSSO e QUEIJO. ")
          l1 = "╔═╦═╦═╦═╗"
@@ -122,21 +124,21 @@ if (rato == 6 and gato == 3):
          l3 = "╠═╬═╬═╬═╣"
          l4 = "║█║R║█║█║"
          l5 = "╚═╩═╩═╩═╝"
-         print(" "*22,l1)
-         print(" "*22,l2)
-         print(" "*22,l3)
-         print(" "*22,l4)
-         print(" "*22,l5)
+         print(" "*23,l1)
+         print(" "*23,l2)
+         print(" "*23,l3)
+         print(" "*23,l4)
+         print(" "*23,l5)
          print()
           #O valor inteiro digitado pelo usuário é atribuido as variáveis.
-         queijo = int(input("Onde deseja colocar o primeiro queijo? "))
+         queijo = input("Onde deseja colocar o primeiro queijo? ")
          print()
-         osso = int(input("Em que lugar vai colocar o osso? "))
+         osso = input("Em que lugar vai colocar o osso? ")
          print()
-         queijo2 = int(input("E o último queijo vai? "))
+         queijo2 = input("E o último queijo vai? ")
          print()
          #Analisa a resposta do usuário sobre oque a fase pede.
-         if((osso == 2 and queijo == 3 and queijo2 == 1) or (osso == 2 and queijo == 1 and queijo2 == 3)):
+         if((osso == "2" and queijo == "3" and queijo2 == "1") or (osso == "2" and queijo == "1" and queijo2 == "3")):
              #Se a resposta for verdadeira imprime na tela.
              print("▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓")
              print("▓PARABÉNS você VENCEU!!!▓")
@@ -144,10 +146,14 @@ if (rato == 6 and gato == 3):
 
 # A sequência de "else" imprime na tela caso a verificação dos "if" retorne falsa.
          else:
+             print("Você chegou perto, vamos de novo?")
              print("GAME OVER!!")
-     else:    
+     else:  
+         print("Resposta errada!")
          print("GAME OVER!!")
  else:
+     print("Não foi dessa vez, quem sabe na próxima?")
      print("GAME OVER!!")
 else: 
+    print("Você errou, leia as regras de novo e tente mais uma vez!")
     print("GAME OVER!!")
