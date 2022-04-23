@@ -3,11 +3,15 @@
 
 Este é um joguinho de terminal que tem como objetivo alocar os animais em seus quartos seguindo alguns requisitos para que nenhum hospede tenha problemas. 
 
+------
+
 <h2>Como usar?</h2>
 
 No Visual Studio abra o arquivo **Hotel dos Animais.sln** ou **Animais.pyproj**, será aberto o terminal onde é possível jogar.
 
 Para visualizar o código basta abrir o arquivo **Hotel_dos_Animais.py** em qualquer editor de código. Também é possível copiar o código e colocar em um arquivo Python no <a href="https://replit.com/">replit</a> para jogar sem ter nenhum software específico instalado.
+
+------
 
 <h2>Regras do Game 🎮</h2>
 
@@ -23,15 +27,19 @@ Caso você erre a alocação dos hospedes o jogo termina, mas caso você acerte 
 
 Divirta-se!
 
+------
+
 ## Softwares  e linguagens usados 💾
 
-### <img src="./imageReadMe/icons8-visual-studio-48.png" style="zoom:80%;" >Visual Studio                                          <img src="./imageReadMe/python.png">Python
+### <img src="./imageReadMe/icons8-visual-studio-48.png" style="zoom:80%;" >Visual Studio   
 
-###  
+###      <img src="./imageReadMe/python.png">Python
 
-## Vamos trocar uma ideia?😆
+------
 
 
 
-### 🐱‍👤[Git Hub](https://github.com/Aristimunho)                                         🙋‍♂️[Linkedin](https://www.linkedin.com/in/abraão-aristimunho-23a784223/)                
+## Contato
+
+### <a href="https://github.com/Aristimunho"><img src="./imageReadMe/github.png"></a> <a href="https://www.linkedin.com/in/abraão-aristimunho-23a784223/"><img src="./imageReadMe/linkedin.png"></a>
 
